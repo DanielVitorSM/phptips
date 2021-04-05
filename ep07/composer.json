@@ -1,0 +1,25 @@
+{
+    "name": "danielvitorsm/phptips07",
+    "description": "DESCOMPLICANDO MVC COM PHP DO JEITO CERTO",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Daniel Vitor Silva Moreira",
+        "email": "funkeogato@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "php": "^8.0.3",
+        "ext-pdo": "*",
+        "coffeecode/datalayer": "*",
+        "coffeecode/router": "*",
+        "league/plates": "*"
+    }
+}

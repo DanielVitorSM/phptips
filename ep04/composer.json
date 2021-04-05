@@ -1,0 +1,25 @@
+{
+    "name": "danielvitorsm/phptips004",
+    "description": "Rotas, callbacks e Estrutura MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Daniel",
+        "email": "funkeogato@gmail.com"
+    }],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "coffeecode/router": "^1.0"
+    }
+}

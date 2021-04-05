@@ -1,0 +1,27 @@
+{
+    "name": "danielvitorsm/phptips002",
+    "description": "Aprendendo a mecher com o data layer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel",
+            "email": "funkeogato@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "coffeecode/datalayer": "1.*"
+    }
+}
